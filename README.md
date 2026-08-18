@@ -25,3 +25,4 @@
 3. Install the required external module by running: 
    ```bash
    pip install requests
+![SkyCast Weather Interface](SkyCast_preview.png)
