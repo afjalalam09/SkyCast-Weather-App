@@ -1,5 +1,6 @@
 # 🌤️ SkyCast Weather Application
 
+
 ![SkyCast Weather Interface](SkyCast_preview.png)
 
 ## 🎯 Project Overview
