@@ -17,7 +17,7 @@
 
 ## 📂 Repository Files
 *   `weather_app.py` - The core Python script containing the application logic, API integration, and GUI design.
-*   `SkyCast_Preview.png` - HD screenshot of the application's user interface.
+*   `SkyCast_preview.png` - HD screenshot of the application's user interface.
 
 ## 🚀 How to Run Locally
 1. Clone this repository to your local machine.
