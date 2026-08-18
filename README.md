@@ -1,23 +1,27 @@
-# 🌤️ Python GUI Weather Application
+# 🌤️ SkyCast Weather Application
 
 ## 🎯 Project Overview
-"Afjal Weather App" is a desktop Graphical User Interface (GUI) application built using Python. It allows users to select various Indian states/cities from a dropdown menu and fetches real-time weather data using the OpenWeatherMap API.
+**SkyCast Weather** is a modern desktop Graphical User Interface (GUI) application built using Python. It allows users to select various Indian states and cities from a dropdown menu and seamlessly fetches real-time weather data using the OpenWeatherMap API. 
+
+## ✨ Key Features
+*   **Real-Time Data:** Accurately fetches live climate conditions, weather descriptions, temperature, and atmospheric pressure.
+*   **Modern UI/UX:** Built with Tkinter, featuring a clean 'Sky Blue' aesthetic, intuitive dropdowns, and professional typography.
+*   **Dynamic Data Formatting:** Automatically converts API temperature data from Kelvin to Celsius (°C) and displays pressure in Hectopascals (hPa) for immediate readability.
+*   **Robust Error Handling:** Includes `try-except` blocks to prevent application crashes in case of network failures or invalid API responses.
 
 ## 🛠️ Tech Stack
-* **Language:** Python
-* **GUI Framework:** Tkinter
-* **Data Integration:** OpenWeatherMap API (JSON Parsing)
-* **Libraries Used:** `tkinter`, `requests`
+*   **Programming Language:** Python 3
+*   **GUI Framework:** Tkinter
+*   **Data Source:** OpenWeatherMap API
+*   **Libraries Used:** `requests`, `json`, `tkinter`
 
-## ⚙️ Key Features
-* **Interactive UI:** Built a clean, color-coded user interface with a dropdown selection (Combobox) for Indian states and territories.
-* **Real-Time Data Fetching:** Seamlessly connects to a live API to retrieve current weather conditions.
-* **Dynamic Display:** Extracts and visualizes key data points including:
-  * Weather Climate (Main)
-  * Weather Description
-  * Temperature (Converted from Kelvin to Celsius)
-  * Atmospheric Pressure
+## 📂 Repository Files
+*   `weather_app.py` - The core Python script containing the application logic, API integration, and GUI design.
+*   `SkyCast_Preview.png` - HD screenshot of the application's user interface.
 
-## 📸 Application Preview
-![Weather App Preview](weather_app_preview.png)
-*(Note: Upload your app's screenshot to the repository and ensure the file name matches)*
+## 🚀 How to Run Locally
+1. Clone this repository to your local machine.
+2. Ensure you have Python installed on your system.
+3. Install the required external module by running: 
+   ```bash
+   pip install requests
