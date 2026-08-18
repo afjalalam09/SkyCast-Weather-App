@@ -1,5 +1,7 @@
 # 🌤️ SkyCast Weather Application
 
+![SkyCast Weather Interface](SkyCast_preview.png)
+
 ## 🎯 Project Overview
 **SkyCast Weather** is a modern desktop Graphical User Interface (GUI) application built using Python. It allows users to select various Indian states and cities from a dropdown menu and seamlessly fetches real-time weather data using the OpenWeatherMap API. 
 
@@ -25,4 +27,4 @@
 3. Install the required external module by running: 
    ```bash
    pip install requests
-![SkyCast Weather Interface](SkyCast_preview.png)
+
